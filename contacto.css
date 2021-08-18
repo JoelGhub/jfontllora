@@ -72,3 +72,14 @@ textarea{
 }
 
 
+@media (max-width: 490px) { 
+
+    textarea{
+        max-width: 10rem;
+        min-width: 10rem;
+        min-height: 10rem;
+        max-height: 10rem;
+        border:1px solid black;
+    }
+  
+}
