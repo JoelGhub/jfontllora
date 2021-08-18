@@ -1,0 +1,172 @@
+*{
+border: 0;
+padding:0;
+font-family: 'Roboto', sans-serif;
+box-sizing: border-box;
+}
+#title{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
+  text-decoration: underline;
+  color:#515E63;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
+  background-color:#57837B ;
+
+}
+.nav-bar ol li{
+  list-style: none;
+  padding:1rem;
+  display: inline-block;
+}
+.links{
+  text-decoration: none;
+  font-weight: bold;
+  color:#C9D8B6;
+  
+}
+.links:hover{
+  color:#F1ECC3;
+  
+}
+main{
+  margin-top: 35px;
+}
+.services{
+  
+  text-align: center;
+
+}
+
+.icons{
+  
+  padding:3rem;
+  width: 33%;
+  font-size: 2rem;
+ 
+  margin: 3rem;
+  background-color: #57837B;
+}
+.p-icons{
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 10px;
+  
+}
+.list-of-icons li i:hover{
+  
+  background-color:#C9D8B6 ;
+}
+#sobremi-title{
+  font-weight:300;
+  margin-left:1rem;
+  text-align: center;
+  text-decoration: underline 4px;
+}
+.sobreMi-section{
+  text-align: center;
+ border: 1px solid black;
+ background-color: #F1ECC3;
+ width: 60%;
+ margin: 0 auto;
+}
+.sobreMi-section p{
+  font-weight: 600;
+  
+  padding: 4rem;
+  width: 45%;
+  margin: 0 auto;
+  text-align: left;
+}
+.img-sobre-mi{
+  border-radius: 100%;
+  border:1px solid black;
+
+}
+
+.table{
+  text-align: center;
+  
+  margin-top: 2rem;
+  width: 60%;
+  margin: 0 auto;
+}
+.table tr td{
+  border: 1px solid black;
+}
+.title-table{
+  font-weight: 900;
+  background-color:#fff;
+  
+}
+
+.habilidad{
+  font-weight: 800;
+  background-color:#515E63 ;
+  color:#C9D8B6;
+}
+.skill{
+  color:#57837B;
+
+}
+.table-skills{
+  margin: 0 auto;
+  width: 50%;
+}
+.copyright{
+  background-color:#515E63 ;
+  height: 5rem;
+  margin-top: 5rem;
+}
+
+.copyright p{
+  text-align: center;
+  padding: 2rem;
+  color:#C9D8B6;
+}
+.container-copyright{
+  
+  margin-top: 5rem;
+}
+
+.ir-arriba{
+  display:none;
+	padding:20px;
+	background:#57837B;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
+
+.cv{
+  text-decoration: none;
+  font-weight: bold;
+  color:#C9D8B6;
+}
+
+.cv:hover{
+  color:#F1ECC3;
+  
+}
+
+@media (max-width: 830px) { 
+
+  .sobreMi-section p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.p-icons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+}
