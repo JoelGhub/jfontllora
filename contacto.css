@@ -1,0 +1,87 @@
+
+.cuestionario{
+    border:  1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:#C9D8B6;
+}
+.cuestionario ol{
+    border:1px solid;
+    border-color:#93b16b;
+    background-color:#fff;
+    
+}
+.cuestionario ol li{
+    padding: 1em;
+    list-style: none;
+
+}
+.caja-texto{
+    width: 25rem;
+    height: 2rem;
+    border:2px solid #515E63;
+    
+}
+textarea{
+    max-width: 25rem;
+    min-width: 25rem;
+    min-height: 10rem;
+    max-height: 10rem;
+    border:1px solid black;
+}
+
+.btn{
+    border:1px solid #515E63;
+    border-radius: 30%;
+    padding:1rem;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background-color: #F1ECC3;
+    cursor: pointer;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 490px) { 
+
+    textarea{
+        max-width: 10rem;
+        min-width: 10rem;
+        min-height: 10rem;
+        max-height: 10rem;
+        border:1px solid black;
+    }
+  
+}
+
+
